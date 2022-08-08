@@ -1,0 +1,130 @@
+
+
+.legend {
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1.2em;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.inputxx {
+    margin-bottom: 1em;
+    padding: 13px 15px;
+    border: 1px solid #eee;
+    background: #eee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.inputy {
+    writing-mode: horizontal-tb !important;   
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.inputxx input {
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #eee !important;
+    width: 100%;
+}
+
+.vertical-tab {
+    color: #333;
+    display: block;
+    margin: auto;
+    position: relative;
+    float: left;
+    /* width: 70%; */
+}
+
+.fatherx{
+    width: 500px;
+    margin: auto;
+}
+
+.btnlogin {
+    margin: 2.3em auto 0;
+    background: #F90;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;    
+    
+    display: block;
+    color: black;
+    padding: 14px 30px;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.btnlogin:hover {
+    background-color:rgb(255, 81, 0) ;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 13px 28px;
+}
+
+.btnlogin:active{
+    
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 12px 28px;
+    
+
+  }
+
+  .loginmessage
+  {
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .loginroot{ background-color: white;min-height: 800px;
+    margin-top: 0px;
+}
